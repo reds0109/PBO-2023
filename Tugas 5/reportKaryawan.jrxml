@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6336e8f8-4518-4dc7-9686-9662701310f5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM Karyawan]]>
+	</queryString>
+	<field name="id_karyawan" class="java.lang.String"/>
+	<field name="nama" class="java.lang.String"/>
+	<field name="divisi" class="java.lang.String"/>
+	<field name="domisili" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="193" y="0" width="174" height="35" forecolor="#3333FF" uuid="fecb248a-6a05-4005-9a28-3b8114345c11"/>
+				<textElement>
+					<font size="20" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[DATA KARYAWAN]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="22" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="58" splitType="Stretch">
+			<staticText>
+				<reportElement x="393" y="1" width="108" height="25" forecolor="#3366FF" uuid="9ea297f5-f7c4-481c-9247-a76ff6760362"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Domisili]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="1" width="108" height="25" forecolor="#3366FF" uuid="2e2b9a78-2990-48a3-b1c5-29e8db36ad94"/>
+				<box>
+					<pen lineColor="#99FF99"/>
+					<topPen lineColor="#99FF99"/>
+					<leftPen lineColor="#99FF99"/>
+					<bottomPen lineColor="#99FF99"/>
+					<rightPen lineColor="#99FF99"/>
+				</box>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[ID Karyawan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="153" y="0" width="108" height="25" forecolor="#3366FF" uuid="b02ad760-6752-4c76-9f48-ce2dd6055147"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="267" y="0" width="108" height="25" forecolor="#3366FF" uuid="ef859b0c-4fbb-43da-87db-6bb1eb3f094b"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Divisi]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="26" width="121" height="30" uuid="405b773b-9876-40d9-a031-ae11c699bd24">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id_karyawan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="153" y="26" width="100" height="30" uuid="2de72171-4e9f-464f-bcf2-9aa76290d69b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="267" y="26" width="100" height="30" uuid="90df981c-dffb-4eed-a947-e824ff245ea2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{divisi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="393" y="26" width="100" height="30" uuid="7a7b4cad-b589-49a8-9933-14c5b0010c41">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{domisili}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
