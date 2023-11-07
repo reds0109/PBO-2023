@@ -1,3 +1,6 @@
+# CSV
+Comma Separated Value atau CSV adalah format data yang memudahkan penggunanya melakukan penginputan data ke database secara sederhana. CSV bisa digunakan dalam standar file ASCII, yang mana setiap record dipisahkan dengan tanda koma (,) atau titik koma (;).
+
 # Tahapan-tahapan
 1.  Menggunakan database yang sama seperti tugas pertemuan 9 yaitu 
 "PBO_Pertemuan9", buat project baru dengan nama "PBO_Pertemuan10" 
