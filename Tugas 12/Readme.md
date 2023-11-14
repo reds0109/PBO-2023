@@ -1,16 +1,17 @@
 # Tahapan
 
 # 1. Login
-![Screenshot 2023-11-14 125332](https://github.com/reds0109/PBO-2023/assets/148847358/6ac247cb-2cb3-4c58-907c-ff7eeccdcd28)
-
-# 2. Dashboard
-![Screenshot 2023-11-14 125353](https://github.com/reds0109/PBO-2023/assets/148847358/34ab54e4-3941-4808-bdc5-ed1f86dfbe9f)
-
-# 3. Data Buku
 ![Screenshot 2023-11-14 125311](https://github.com/reds0109/PBO-2023/assets/148847358/3304d871-8d7e-4bb7-b72b-eba6dd200974)
 
-# 4. Data Skripsi
+# 2. Dashboard
 ![Screenshot 2023-11-12 233820](https://github.com/reds0109/PBO-2023/assets/148847358/9201c155-c289-4e95-9b75-c2b7734f5b1b)
+
+# 3. Data Buku
+![Screenshot 2023-11-14 125332](https://github.com/reds0109/PBO-2023/assets/148847358/6ac247cb-2cb3-4c58-907c-ff7eeccdcd28)
+
+# 4. Data Skripsi
+
+![Screenshot 2023-11-14 125353](https://github.com/reds0109/PBO-2023/assets/148847358/34ab54e4-3941-4808-bdc5-ed1f86dfbe9f)
 
 # 5. Laporan Buku
 ![Screenshot 2023-11-14 125412](https://github.com/reds0109/PBO-2023/assets/148847358/deca768b-39ff-47bb-b870-a8258ffa8f8c)
