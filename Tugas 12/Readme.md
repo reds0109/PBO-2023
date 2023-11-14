@@ -1,5 +1,6 @@
 # Tahapan
 
+# 1. pertama
 ![Screenshot 2023-11-14 125332](https://github.com/reds0109/PBO-2023/assets/148847358/6ac247cb-2cb3-4c58-907c-ff7eeccdcd28)
 
 ![Screenshot 2023-11-14 125353](https://github.com/reds0109/PBO-2023/assets/148847358/34ab54e4-3941-4808-bdc5-ed1f86dfbe9f)
