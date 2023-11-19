@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="929de88a-f737-4a6d-9698-6078fd1c453a">
+	<property name="ireport.zoom" value="0.8264462809917354"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM Skripsi]]>
+	</queryString>
+	<field name="ID_Skripsi" class="java.lang.String"/>
+	<field name="Judul" class="java.lang.String"/>
+	<field name="Pengarang" class="java.lang.String"/>
+	<field name="Tahun" class="java.lang.String"/>
+	<field name="Jumlah_halaman" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<textField>
+				<reportElement x="110" y="10" width="100" height="30" forecolor="#009933" uuid="d34258d6-97e4-44bb-b3f5-e1e47897b48b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{judul}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="263" y="10" width="225" height="35" forecolor="#009900" uuid="60f26acd-22d9-4c46-8b60-0bc7e226f400"/>
+				<textElement>
+					<font size="24" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[DATA BUKU UINSA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="340" y="10" width="100" height="30" forecolor="#009933" uuid="4379e7ed-1847-4d35-8bce-69f74c1976d3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pengarang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="463" y="10" width="82" height="30" forecolor="#009933" uuid="e5e1cdc5-94cc-47d1-82f3-39e66ae9a491">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{penerbit}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="10" width="80" height="25" forecolor="#00CC00" uuid="5d5f0bf5-6966-4069-9955-d3ab5895d757"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[ISBN]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="232" y="10" width="79" height="30" forecolor="#009933" uuid="582ba0ba-5c2b-4f67-a2c7-48c83c25cc82">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subjudul}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="110" y="10" width="82" height="25" forecolor="#00CC00" uuid="2de9970e-9471-4eeb-b094-0869e7d1de3e"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Judul]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="10" y="10" width="81" height="30" forecolor="#009933" uuid="cd162cc4-ddb4-4c1a-b175-baf156c56215">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{isbn}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="340" y="10" width="108" height="25" forecolor="#00CC00" uuid="24674788-75c6-4b1f-a189-54bc256a1504"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Pengarang]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="684" y="10" width="128" height="30" forecolor="#009933" uuid="9b289b90-3719-4fc4-9a7f-c1cc39fd2a5a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jumlah_halaman}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="559" y="10" width="108" height="25" forecolor="#00CC00" uuid="7efc2e91-0f5b-402b-960c-ad6ea6013ffa"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Tahun Terbit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="243" y="20" width="316" height="45" forecolor="#006600" uuid="80a29519-7280-41b1-bcb7-4efa4055a889"/>
+				<textElement textAlignment="Justified">
+					<font size="26" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[UINSA GUNUNG ANYAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="10" width="108" height="25" forecolor="#00CC00" uuid="01be1e49-17b6-4f4f-896f-de033d321153"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Subjudul]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="684" y="10" width="128" height="25" forecolor="#00CC00" uuid="b9a22542-be96-4e13-9b7f-c299200a9661"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Jumlah Halaman]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="463" y="10" width="82" height="25" forecolor="#00CC00" uuid="ba47623a-10eb-4958-9e0e-98bab0577af0"/>
+				<textElement>
+					<font size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Penerbit]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="559" y="10" width="100" height="30" forecolor="#009933" uuid="b7275511-1519-46f7-baa4-ae45d09c91df">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tahun_terbit}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
