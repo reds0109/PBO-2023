@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="02aa44f2-2fdc-45dd-a163-4309ce05bb3f">
+	<property name="ireport.zoom" value="0.9090909090909091"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="querySearch" class="java.lang.String"/>
+	<parameter name="searchBy" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM peminjaman_buku]]>
+	</queryString>
+	<field name="id" class="java.lang.String"/>
+	<field name="nama" class="java.lang.String"/>
+	<field name="programStudi" class="java.lang.String"/>
+	<field name="angkatan" class="java.lang.String"/>
+	<field name="jumlahBuku" class="java.lang.String"/>
+	<field name="kategori" class="java.lang.String"/>
+	<field name="tanggalPeminjaman" class="java.lang.String"/>
+	<field name="tanggalPengembalian" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="83" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="802" height="73" uuid="2d5e58cc-ccf4-4046-8591-595b2771f252"/>
+				<imageExpression><![CDATA["C:\\Users\\user\\Pictures\\Screenshots\\Screenshot 2023-12-03 165640.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="680" y="6" width="77" height="57" uuid="b484cbb0-9c3e-4323-a216-b0eeb8e1c64b"/>
+				<imageExpression><![CDATA["C:\\Users\\user\\Pictures\\Screenshots\\Screenshot 2023-11-11 233641.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="150" y="16" width="482" height="47" forecolor="#FFFFFF" uuid="c639eb6b-1cde-4b80-b78e-df3f564c377b"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="30" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[LAPORAN PEMINJAMAN BUKU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="6" width="83" height="41" forecolor="#FFFFFF" uuid="e81d35d2-9ae4-4d0a-b47d-c3332bc3f531"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[MY LIBRARY]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="713" height="20" uuid="facee471-2352-467f-9710-8d4114b13542"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["hasil pencarian dari " + $P{querySearch} +" berdasarkan pada kolom " + $P{searchBy} +" hasilnya adalah:"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="53" splitType="Stretch">
+			<staticText>
+				<reportElement x="38" y="0" width="72" height="25" forecolor="#1E4226" uuid="b81bab40-2217-472a-8820-64203023ec7f"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="667" y="0" width="125" height="40" forecolor="#1E4226" uuid="75437972-1cb1-4ecc-9714-5b96709f5afd"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Tanggal Pengembalian]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="0" width="79" height="40" forecolor="#1E4226" uuid="2a2eb1e2-bae9-4afa-bde8-863ad275fa55"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Program Studi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="321" y="0" width="72" height="40" forecolor="#1E4226" uuid="e04f77ac-671d-4b4b-841a-7a92e539907f"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Jumlah Buku]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="0" width="28" height="25" forecolor="#1E4226" uuid="378bf2d7-0a55-4169-b222-8da410a0d34a"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="532" y="0" width="110" height="40" forecolor="#1E4226" uuid="5816e44d-f11f-4eee-8848-60a8707c145a"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Tanggal Peminjaman]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="415" y="0" width="80" height="25" forecolor="#1E4226" uuid="9ab3fa2c-9a44-4070-a66b-599eed35e80e"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Kategori]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="215" y="0" width="86" height="25" forecolor="#1E4226" uuid="20c7d4e5-ea70-4b27-b2be-f3f7c530a41e"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Angkatan]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="39" splitType="Stretch">
+			<textField>
+				<reportElement x="124" y="0" width="91" height="30" forecolor="#006633" uuid="2488dd7f-aa5c-4322-984e-137663cad333">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{programStudi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="47" y="0" width="54" height="30" forecolor="#006633" uuid="4ec7321e-02a5-4021-b40f-d7b3bfeb36af">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="521" y="0" width="132" height="30" forecolor="#006633" uuid="3bcc6cf4-4298-42d0-92e9-d7ca688c5654">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tanggalPeminjaman}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="321" y="0" width="82" height="30" forecolor="#006633" uuid="799f4a05-2233-40c1-a218-82e270689624">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jumlahBuku}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="215" y="0" width="67" height="30" forecolor="#006633" uuid="c18ab3d9-f8ef-4e8a-97b0-94c59b160c4a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{angkatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="0" width="28" height="30" forecolor="#006633" uuid="9afcaaab-7082-4536-a3c7-5907358687b4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="415" y="0" width="88" height="30" forecolor="#006633" uuid="377e3567-9a43-46e6-a96c-1a26dc5ba63e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kategori}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="656" y="0" width="146" height="30" forecolor="#006633" uuid="ddc91c2f-502a-4f6c-a9a8-8b401597280a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tanggalPengembalian}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="2" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="30" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="1" y="0" width="100" height="20" uuid="6ad177a4-c204-4eab-958f-9ef7cd6171fa"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="2" splitType="Stretch"/>
+	</summary>
+</jasperReport>
