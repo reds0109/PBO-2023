@@ -59,6 +59,207 @@ primary key ("id")
 
 TABEL buku
 
+INSERT INTO buku VALUES (12300,Bahasa Java,Teknologi,Miftha,Gramedia,2015,210);
+
+INSERT INTO buku VALUES (12301,Bahasa Python,Teknologi,Merliana,Airlangga,2014,243);
+
+INSERT INTO buku VALUES (12302,Bahasa PHP,Teknologi,Laily,Gramedia,2016,254);
+
+INSERT INTO buku VALUES (12303,Bahasa c++,Teknologi,Jingga,Bukunesia,2013,234);
+
+INSERT INTO buku VALUES (12304,Pemrograman Dasar,Teknologi,Kartika,Airlangga,2019,210);
+
+INSERT INTO buku VALUES (12305,Pemrograman Lanjutan,Teknologi,Dhamar,Bukunesia,2017,246);
+
+INSERT INTO buku VALUES (12306,Rekayasa Perangkat Lunak,Teknologi,Devira,Airlangga,2018,257);
+
+INSERT INTO buku VALUES (12307,Basis Data,Teknologi,Devina,Gramedia,2014,289);
+
+INSERT INTO buku VALUES (12308,Basis Data Lanjut,Teknologi,Cut,Gramedia,2016,278);
+
+INSERT INTO buku VALUES (12309,Matematika Dasar,Sains,Chanda,Bukunesia,2015,215);
+
+INSERT INTO buku VALUES (12310,Sistem Organ Manusia,Sains,Isnainia,Airlangga,2018,200);
+
+INSERT INTO buku VALUES (12311,Mengenal Bahasa Jerman,Bahasa,Arifia,Airlangga,2020,210);
+
+INSERT INTO buku VALUES (12312,Bahasa Korea Dasar,Bahasa,Andy,Bukunesia,2020,210);
+
+INSERT INTO buku VALUES (12313,Seputar Bahasa Jepang,Bahasa,Alif,Gramedia,2022,220);
+
+INSERT INTO buku VALUES (12314,Bahasa Inggris Bahasa Internasional,Bahasa,Alfi,Airlangga,2018,200);
+
+INSERT INTO buku VALUES (12315,Menggali Bahasa Arab,Bahasa,Aisyah,Gramedia,2021,200);
+
+INSERT INTO buku VALUES (12316,Memahami Bahasa Mandarin,Bahasa,Ica,Airlangga,2015,210);
+
+INSERT INTO buku VALUES (12317,Ilmu Sosial Manusia,Ilmu Sosial,Agung,Bukunesia,2017,220);
+
+INSERT INTO buku VALUES (12318,Arsitektur Dasar,Arsitektur,Syarifuddin,Bukunesia,2018,230);
+
+INSERT INTO buku VALUES (12319,Anatomi Tubuh Manusia,Sains,Tanty,Gramedia,2019,210);
+
+INSERT INTO buku VALUES (12320,Tumbuh Kembang Makhluk Hidup,Sains,Arimbie,Bukunesia,2021,268);
+
+INSERT INTO buku VALUES (12321,Sistem Kerja Paru-Paru,Sains,Syahrul,Airlangga,2022,245);
+
+INSERT INTO buku VALUES (12322,Sistem Kerja Jantung,Sains,Rara,Gramedia,2020,312);
+
+INSERT INTO buku VALUES (12323,Sistem Kerja Otak,Sains,Ilham,Airlangga,2018,297);
+
+INSERT INTO buku VALUES (12324,Sistem Ekskresi,Sains,Rifky,Airlangga,2016,267);
+
+INSERT INTO buku VALUES (12325,Sistem Peredaran Darah,Sains,Yayuk,Bukunesia,2016,234);
+
+INSERT INTO buku VALUES (12326,Sistem Gerak,Sains,Endang,Gramedia,2013,244);
+
+INSERT INTO buku VALUES (12327,Sistem Imun,Sains,Delfi,Bukunesia,2019,224);
+
+INSERT INTO buku VALUES (12328,Sistem Saraf,Sains,Henni,Airlangga,2020,235);
+
+INSERT INTO buku VALUES (12329,Sistem Pencernaan,Sains,Arif,Bukunesia,2022,230);
+
+INSERT INTO buku VALUES (12330,Sistem Pernapasan,Sains,Fadilatin,Airlangga,2015,250);
+
+INSERT INTO buku VALUES (12331,Sistem Informasi Manajemen,Teknologi,Martin,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12332,Sistem Informasi Akuntansi,Teknologi,Firza,Bukunesia,2016,199);
+
+INSERT INTO buku VALUES (12333,Sistem Informasi Kepegawaian,Teknologi,Dzulkifli,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12334,Manajemen dan Organisasi,Teknologi,Kiki,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12335,Manajemen Sistem Informasi,Teknologi,Faiz,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12336,Dasar-Dasar Sistem Informasi,Teknologi,Kaka,Gramedia,2014,230);
+
+INSERT INTO buku VALUES (12337,Memanfaatkan Teknologi Informasi dalam Bisnis,Teknologi,Yoga,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12338,Analisis dan Perancangan Sistem Informasi,Teknologi,Firman,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12339,Implementasi Sistem Informasi,Teknologi,Ratna,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12340,Sistem Informasi Manajemen: Teori dan Praktek di Era Digital,Teknologi,Rizma,Bukunesia,2014,250);
+
+INSERT INTO buku VALUES (12341,Sistem Pendukung Keputusan,Teknologi,Bella,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12342,Manajemen Strategis Teknologi Informasi,Teknologi,Salsa,Bukunesia,2016,249);
+
+INSERT INTO buku VALUES (12343,Pemrograman Basis Data dengan SQL Server,Teknologi,Sabrina,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12344,Strategi Bisnis Digital: Cara Menggunakan Teknologi Informasi untuk Mencapai Keunggulan Bersaing,Teknologi,Ayu,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12345,Information Systems Management in Practice,Teknologi,Tsabitah,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12346,Analisis dan Perancangan Sistem Informasi,Teknologi,Eka,Gramedia,2014,230);
+
+INSERT INTO buku VALUES (12347,Pengantar Sistem Informasi: Pendekatan Bisnis dan Manajemen,Teknologi,Yudha,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12348,Sistem Informasi Manajemen: Teori dan Aplikasi Bisnis,Teknologi,Feni,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12349,Perancangan Basis Data,Teknologi,Fitriya,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12350,Rekayasa Perangkat Lunak: Pendekatan Praktis,Teknologi,Egty,Bukunesia,2014,250);
+
+INSERT INTO buku VALUES (12351,Teknologi Virtual Reality,Teknologi,Adhinata,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12352,Digital Creative,Teknologi,Ivan,Bukunesia,2016,199);
+
+INSERT INTO buku VALUES (12353,E Goverment,Teknologi,Dhiksa,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12354,Socio Informatics,Teknologi,Anggun,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12355,Deep Learning,Teknologi,Tiara,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12356,Sistem Temu Kembali Informasi,Teknologi,Audrey,Gramedia,2014,230);
+
+INSERT INTO buku VALUES (12357,Data Mining,Teknologi,Chandra,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12358,Digital Forensik,Teknologi,Billy,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12359,Business Intelligent,Teknologi,Ellis,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12361,Teknologi Informasi dan Sistem Informasi: Pengenalan Dasar,Teknologi,Agus,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12362,Pemodelan dan Desain Sistem Berorientasi Objek,Teknologi,Defi,Bukunesia,2016,199);
+
+INSERT INTO buku VALUES (12363,Keamanan Komputer: Teknik dan Aplikasinya,Teknologi,Agustina,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12364,Hacking,Teknologi,Aulia,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12365,Keamanan Komputer,Teknologi,Oryza,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12366,Manajemen Keamanan Informasi,Teknologi,Arel,Gramedia,2014,230);
+
+INSERT INTO buku VALUES (12367,Manajemen Teknologi Informasi,Teknologi,Ailsa,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12368,IT Governance: Mengelola Sistem Informasi untuk Mencapai Strategi Bisnis,Teknologi,Caca,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12369,Strategi Bisnis Teknologi Informasi,Teknologi,Faizah,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12370,E-Business: Strategi Bisnis untuk Perdagangan Elektronik,Teknologi,Endah,Bukunesia,2014,250);
+
+INSERT INTO buku VALUES (12371,Strategi Digital: Transformasi Bisnis dalam Era Digital,Teknologi,Dhita,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12372,Transformasi Digital: Menata Bisnis di Era Teknologi,Teknologi,Alifia,Bukunesia,2016,199);
+
+INSERT INTO buku VALUES (12373,Big Data: Panduan Lengkap untuk Membangun Dunia dengan Data,Teknologi,Affandah,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12374,Data Science untuk Pemula,Teknologi,Rozan,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12375,Analisis Data Bisnis: Pendekatan Praktis,Teknologi,Fauzan,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12376,Internet of Things (IoT): Masa Depan yang Terhubung,Teknologi,Bagas,Gramedia,Airlangga,2014,230);
+
+INSERT INTO buku VALUES (12377,Pengantar Keamanan Sistem Informasi,Teknologi,Ananta,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12378,Sistem Pendukung Keputusan dan Kecerdasan Bisnis,Teknologi,Lina,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12379,Management Information Systems: Managing the Digital Firm,Teknologi,Putra,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12380,Information Systems: A Manager's Guide to Harnessing Technology,Teknologi,Dewa,Bukunesia,2014,250);
+
+INSERT INTO buku VALUES (12381,Essentials of MIS,Teknologi,Dewi,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12382,Information Technology for Management: Digital Strategies for Insight,Teknologi,Andrea,Bukunesia,2016,199);
+
+INSERT INTO buku VALUES (12383,Introduction to Information Systems: Supporting and Transforming Business,Teknologi,Ummul,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12384,Manajemen Proses Bisnis,Teknologi,Eva,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12385,Mobile Programming,Teknologi,Rahma,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12386,Web Programming,Teknologi,Belva,Gramedia,2014,230);
+
+INSERT INTO buku VALUES (12387,Artificial Intelligent,Teknologi,Graeta,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12388,Visualisasi Data,Teknologi,Naufal,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12389,e-Business,Teknologi,Bima,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12390,Tata Kelola IT,Teknologi,Yudhistira,Bukunesia,2014,250);
+
+INSERT INTO buku VALUES (12391,Software Quality Assurance,Teknologi,Arjuna,Gramedia,2021,295);
+
+INSERT INTO buku VALUES (12392,Enterprise Architect,Teknologi,Nakula,Bukunesia,2016,199);
+
+INSERT INTO buku VALUES (12393,Metodologi Penelitian,Teknologi,Sadewa,Gramedia,2019,200);
+
+INSERT INTO buku VALUES (12394,Manajemen Resiko,Teknologi,Jessica,Bukunesia,2017,210);
+
+INSERT INTO buku VALUES (12395,Big Data Analytics,Teknologi,Sarah,Gramedia,2015,220);
+
+INSERT INTO buku VALUES (12396,Manajemen Layanan IT,Teknologi,Emma,Gramedia,2014,230);
+
+INSERT INTO buku VALUES (12397,Manajemen Proyek,Teknologi,Syakila,Airlangga,2019,240);
+
+INSERT INTO buku VALUES (12398,Knowledge Management,Teknologi,Rico,Airlangga,2018,260);
+
+INSERT INTO buku VALUES (12399,System Analysis and Design,Teknologi,Mirza,Gramedia,2017,280);
+
+INSERT INTO buku VALUES (12400,Sociopreneurship,Teknologi,Febri,Bukunesia,2014,250);
+
+INSERT INTO buku VALUES (12401,Cloud Computing,Teknologi,Azka,Bukunesia,2014,250);
 
 TABEL skripsi
 
