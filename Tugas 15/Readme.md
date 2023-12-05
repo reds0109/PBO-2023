@@ -56,9 +56,9 @@ primary key ("id")
 );
 
 2. Lalu masukkan data ke dalam masing-masing tabel.
-
-# TABEL buku
-
+==============================================================
+TABEL buku
+==============================================================
 INSERT INTO buku VALUES (12300,Bahasa Java,Teknologi,Miftha,Gramedia,2015,210);
 
 INSERT INTO buku VALUES (12301,Bahasa Python,Teknologi,Merliana,Airlangga,2014,243);
@@ -261,12 +261,214 @@ INSERT INTO buku VALUES (12400,Sociopreneurship,Teknologi,Febri,Bukunesia,2014,2
 
 INSERT INTO buku VALUES (12401,Cloud Computing,Teknologi,Azka,Bukunesia,2014,250);
 
-# TABEL skripsi
+==============================================================
+TABEL skripsi
+==============================================================
+INSERT INTO skripsi VALUES (09010,Implementasi Teknologi Blockchain dalam Sistem Manajemen Hak Cipta,Fitriya,2016,20);
 
+INSERT INTO skripsi VALUES (09011,Pengembangan Aplikasi Sistem Informasi Manajemen Risiko pada Perusahaan Asuransi,Aulia,2016,19);
 
+INSERT INTO skripsi VALUES (09012,Analisis Kinerja Sistem Informasi Keuangan pada Lembaga Keuangan Mikro dengan Pendekatan Balanced Scorecard,Agustina,2016,22);
 
-# TABEL peminjaman_buku
+INSERT INTO skripsi VALUES (09013,Analisis Kinerja Sistem Informasi Manajemen Pergudangan dengan Pendekatan Big Data Analytics,Burhan,2017,25);
 
+INSERT INTO skripsi VALUES (09014,Pengembangan Aplikasi Mobile untuk Meningkatkan Efisiensi Proses Inventarisasi Barang pada Perusahaan Retail,Rudiawan,2017,26);
+
+INSERT INTO skripsi VALUES (09015,Perancangan Sistem Informasi Penjadwalan Otomatis Berbasis AI (Artificial Intelligence),Miftakhul J,2019,30);
+
+INSERT INTO skripsi VALUES (09016,Perancangan Sistem Informasi Manajemen Logistik pada Perusahaan Distribusi Barang,Tri Ayu Dhea,2019,31);
+
+INSERT INTO skripsi VALUES (09017,Pengembangan Aplikasi Mobile untuk Pemesanan dan Pengiriman Makanan Berbasis Lokasi,Jihan Dzakira,2020,35);
+
+INSERT INTO skripsi VALUES (09018,Perancangan Sistem Informasi Pengelolaan Parkir Berbasis IoT (Internet of Things),Widyasari,2018,25);
+
+INSERT INTO skripsi VALUES (09019,Pengembangan Aplikasi Pemesanan Tiket Online Berbasis Pintar Menggunakan Algoritma Machine Learning,Citra,2018,23);
+
+INSERT INTO skripsi VALUES (09020,Perancangan Sistem Informasi Penerimaan dan Pendistribusian Donasi pada Organisasi Kemanusiaan,Meidina,2019,27);
+
+INSERT INTO skripsi VALUES (09021,Implementasi Sistem Informasi Geografis dalam Pemetaan Potensi Wisata Daerah,Budiman,2019,22);
+
+INSERT INTO skripsi VALUES (09022,Analisis Penggunaan Teknologi Cloud Computing dalam Pengelolaan Data Pasien di Rumah Sakit,Roni,2020,25);
+
+INSERT INTO skripsi VALUES (09023,Pengembangan Aplikasi E-learning dengan Integrasi Sistem Video Conference untuk Proses Pembelajaran Jarak Jauh,Sandi S,2017,26);
+
+INSERT INTO skripsi VALUES (09024,Analisis Penggunaan Teknologi Blockchain dalam Sistem Keuangan dan Perbankan,Reva,2020,21);
+
+INSERT INTO skripsi VALUES (09025,Perancangan Sistem Informasi Manajemen Persediaan Barang dengan Metode Just-in-Time (JIT),Jooan,2021,22);
+
+INSERT INTO skripsi VALUES (09026,Pengembangan Aplikasi Sistem Pendukung Keputusan untuk Analisis Sentimen Pelanggan pada Media Sosial,Cein,2021,28);
+
+INSERT INTO skripsi VALUES (09027,Analisis Kinerja Sistem Informasi Manajemen Kepegawaian dengan Pendekatan Data Mining,Danis,2022,25);
+
+INSERT INTO skripsi VALUES (09028,Perancangan Sistem Informasi Pemesanan dan Pengelolaan Bahan Baku pada Industri Makanan dan Minuman,Haru,2021,23);
+
+INSERT INTO skripsi VALUES (09029,Implementasi Teknologi IoT dalam Monitoring dan Kontrol Kualitas Udara di Perkotaan,Hwan,2021,24);
+
+INSERT INTO skripsi VALUES (09030,Pengembangan Aplikasi Mobile untuk Pemesanan dan Pembayaran Tiket Transportasi Umum Berbasis NFC (Near Field Communication),JK,2022,25);
+
+INSERT INTO skripsi VALUES (09031,Analisis Penggunaan Teknologi Big Data dalam Peningkatan Keamanan Data Perusahaan,Heri,2018,23);
+
+INSERT INTO skripsi VALUES (09032,Perancangan Sistem Informasi Manajemen Proyek Konstruksi dengan Metode Agile,Rani,2021,25);
+
+INSERT INTO skripsi VALUES (09033,Pengembangan Aplikasi Sistem Informasi Kesehatan untuk Deteksi Dini Penyakit Berbasis Data Pasien,Widi,2019,26);
+
+INSERT INTO skripsi VALUES (09034,Analisis Kinerja Sistem Informasi Akademik pada Perguruan Tinggi dengan Pendekatan Data Envelopment Analysis,Diva,2022,21);
+
+INSERT INTO skripsi VALUES (09035,Perancangan Sistem Informasi Manajemen Logistik pada Perusahaan Distribusi Barang,Yichan,2022,22);
+
+INSERT INTO skripsi VALUES (09036,Analisis Penggunaan Teknologi Augmented Reality dalam Pembelajaran Interaktif,Eungyeol,2020,28);
+
+INSERT INTO skripsi VALUES (09037,Perancangan Sistem Informasi Penjualan dan Analisis Permintaan Pelanggan pada Industri Ritel,Eunyu,2018,25);
+
+INSERT INTO skripsi VALUES (09038,Implementasi Teknologi Blockchain dalam Sistem Manajemen Hak Cipta,Cheonga,2019,23);
+
+INSERT INTO skripsi VALUES (09039,Pengembangan Aplikasi Sistem Informasi Manajemen Risiko pada Perusahaan Asuransi,Santi,2022,24);
+
+INSERT INTO skripsi VALUES (09040,Analisis Kinerja Sistem Informasi Keuangan pada Lembaga Keuangan Mikro dengan Pendekatan Balanced Scorecard,Aspiah,2021,25);
+
+INSERT INTO skripsi VALUES (09041,Perancangan Sistem Informasi Pengelolaan Data Alumni pada Perguruan Tinggi,Zeha,2020,23);
+
+INSERT INTO skripsi VALUES (09042,Pengembangan Aplikasi Mobile untuk Monitoring dan Kontrol Konsumsi Energi Listrik di Rumah Tangga,Hosu,2016,28);
+
+INSERT INTO skripsi VALUES (09043,Analisis Penggunaan Teknologi Internet of Things dalam Sistem Monitoring Lingkungan Hidup,Dogeon,2017,24);
+
+INSERT INTO skripsi VALUES (09044,Perancangan Sistem Informasi Manajemen Penjualan pada Industri E-commerce,Changjun,2020,27);
+
+INSERT INTO skripsi VALUES (09045,Pengembangan Aplikasi Sistem Informasi Kesehatan untuk Deteksi Dini Penyakit Menular,V,2022,22);
+
+INSERT INTO skripsi VALUES (09046,Analisis Kinerja Sistem Informasi Manajemen Persediaan dengan Metode ABC (Activity-Based Costing),Icha,2018,23);
+
+INSERT INTO skripsi VALUES (09047,Perancangan Sistem Informasi Penjadwalan dan Manajemen Transportasi pada Perusahaan Logistik,Hana,2021,25);
+
+INSERT INTO skripsi VALUES (09048,Implementasi Teknologi Artificial Intelligence dalam Deteksi Penipuan Kartu Kredit,Windy,2019,26);
+
+INSERT INTO skripsi VALUES (09049,Pengembangan Aplikasi Mobile untuk Monitoring dan Kontrol Suhu Ruangan Berbasis IoT,Chaelies,2022,21);
+
+INSERT INTO skripsi VALUES (09050,Analisis Penggunaan Teknologi Big Data dalam Sistem Informasi Pemasaran,Swita,2022,22);
+
+INSERT INTO skripsi VALUES (09051,Perancangan Sistem Informasi Manajemen Penyimpanan Data pada Cloud Computing,Putri,2020,28);
+
+INSERT INTO skripsi VALUES (09052,Pengembangan Aplikasi Sistem Informasi Keuangan untuk Manajemen Keuangan Pribadi,Kharisma,2018,25);
+
+INSERT INTO skripsi VALUES (09053,Analisis Kinerja Sistem Informasi Manajemen Pelanggan pada Perusahaan Telekomunikasi dengan Pendekatan CRM (Customer Relationship Management),Bahrul,2019,23);
+
+INSERT INTO skripsi VALUES (09054,Perancangan Sistem Informasi Penyewaan Kendaraan pada Perusahaan Rental Mobil,Sandi,2022,24);
+
+INSERT INTO skripsi VALUES (09055,Pengembangan Aplikasi Mobile untuk Pemesanan dan Pembayaran Tiket Acara Musik Berbasis QR Code,Galang,2021,25);
+
+INSERT INTO skripsi VALUES (09056,Analisis Penggunaan Teknologi Augmented Reality dalam Pemasaran Produk,Daniel,2020,23);
+
+INSERT INTO skripsi VALUES (09057,Perancangan Sistem Informasi Manajemen Proses Produksi pada Industri Manufaktur,Ari,2016,28);
+
+INSERT INTO skripsi VALUES (09058,Implementasi Teknologi Blockchain dalam Sistem Keamanan Dokumen Digital,Amirul,2017,24);
+
+INSERT INTO skripsi VALUES (09059,Pengembangan Aplikasi Sistem Informasi Kesehatan untuk Monitoring dan Analisis Kondisi Kesehatan Pasien Jantung,Safira,2020,27);
+
+INSERT INTO skripsi VALUES (09060,Analisis Kinerja Sistem Informasi Manajemen Keuangan pada Organisasi Nirlaba dengan Pendekatan ROI (Return on Investment),Dani,2022,22);
+
+INSERT INTO skripsi VALUES (09061,Perancangan Sistem Informasi Pengelolaan Dana Investasi pada Perusahaan Keuangan,Arya,2021,25);
+
+INSERT INTO skripsi VALUES (09062,Pengembangan Aplikasi Mobile untuk Manajemen Jadwal dan Catatan Pribadi,Rio,2019,26);
+
+INSERT INTO skripsi VALUES (09063,Analisis Perbandingan Basis Data SQL dan NoSQL dalam Penyimpanan Data Big Data,Ilham,2018,23);
+
+INSERT INTO skripsi VALUES (09064,Penggunaan Teknologi Big Data untuk Analisis Prediksi Bisnis,Vera,2021,25);
+
+INSERT INTO skripsi VALUES (09065,Manajemen Data Real-Time untuk Aplikasi Internet of Things (IoT),Fitri,2019,26);
+
+INSERT INTO skripsi VALUES (09066,Pengembangan Basis Data Terdistribusi untuk Aplikasi Cloud Computing,Dufan,2022,21);
+
+INSERT INTO skripsi VALUES (09067,Optimasi Kinerja Basis Data dengan Indeks Terdistribusi,Andre,2022,22);
+
+INSERT INTO skripsi VALUES (09068,Integrasi Basis Data SQL dan NoSQL dalam Lingkungan Big Data,Rama,2020,28);
+
+INSERT INTO skripsi VALUES (09069,Analisis Sentimen dalam Data Big Data: Studi Kasus pada Media Sosial,Yahya,2018,25);
+
+INSERT INTO skripsi VALUES (09070,Manajemen Basis Data Terdistribusi untuk Aplikasi Mobile,Handi,2019,23);
+
+INSERT INTO skripsi VALUES (09071,Perancangan dan Implementasi Basis Data Multimodel,Aldi,2022,24);
+
+INSERT INTO skripsi VALUES (09072,Penggunaan Teknologi NoSQL dalam Aplikasi Manajemen Stok,Farhan,2021,25);
+
+INSERT INTO skripsi VALUES (09073,Integrasi Sistem Informasi Bisnis dengan Teknologi Machine Learning,Rendi,2020,23);
+
+INSERT INTO skripsi VALUES (09074,Sistem Informasi E-Commerce: Studi Kasus pada Toko Online,Rizky,2016,28);
+
+INSERT INTO skripsi VALUES (09075,Perancangan dan Pengembangan Dashboard Kinerja Bisnis,Ikmal,2017,24);
+
+INSERT INTO skripsi VALUES (09076,Penggunaan Sistem Informasi Geografis (SIG) dalam Analisis Pasar,Isma,2020,27);
+
+INSERT INTO skripsi VALUES (09077,Sistem Informasi Manajemen Persediaan: Studi Kasus pada Perusahaan Ritel,Nisak,2022,22);
+
+INSERT INTO skripsi VALUES (09078,Analisis Big Data dalam Pengambilan Keputusan Bisnis,Nanda,2021,25);
+
+INSERT INTO skripsi VALUES (09079,Implementasi Sistem Informasi Customer Relationship Management (CRM),Dea,2020,21);
+
+INSERT INTO skripsi VALUES (09080,Perancangan Sistem Informasi untuk Manajemen Proyek,Febrianti,2019,23);
+
+INSERT INTO skripsi VALUES (09081,Sistem Informasi untuk Analisis Rantai Pasokan,Enik,2022,24);
+
+INSERT INTO skripsi VALUES (09082,Pengembangan Sistem Informasi Manajemen untuk Analisis Keuangan Perusahaan,Yesa,2021,25);
+
+INSERT INTO skripsi VALUES (09083,Analisis Kerentanan Aplikasi Web dan Upaya Penetrasi,Adit,2020,23);
+
+INSERT INTO skripsi VALUES (09084,Pengembangan Sistem Keamanan Biometrik,Rhandy,2016,28);
+
+INSERT INTO skripsi VALUES (09085,Manajemen Identitas dan Akses dalam Keamanan Sistem Informasi,Ajeng,2017,24);
+
+INSERT INTO skripsi VALUES (09086,Analisis Forensik Digital dalam Investigasi Keamanan Cyber,Aldy,2020,27);
+
+INSERT INTO skripsi VALUES (09087,Keamanan Cloud Computing: Tantangan dan Solusi,Yolanda,2022,22);
+
+INSERT INTO skripsi VALUES (09088,Implementasi Sistem Keamanan untuk Internet of Things (IoT),Audi,2021,25);
+
+INSERT INTO skripsi VALUES (09089,Analisis Risiko dan Manajemen Keamanan Sistem Informasi,Bion,2020,21);
+
+INSERT INTO skripsi VALUES (09090,Keamanan Data dan Enkripsi dalam Penyimpanan Cloud,Cella,2019,23);
+
+INSERT INTO skripsi VALUES (09091,Studi Kasus tentang Serangan Phishing dan Pencegahannya,Chanin,2022,24);
+
+INSERT INTO skripsi VALUES (09092,Evaluasi dan Peningkatan Keamanan Jaringan Komputer,Chelsy,2021,25);
+
+INSERT INTO skripsi VALUES (09093,Manajemen Data Pasien dalam Sistem Informasi Kesehatan Terintegrasi,Deni,2020,23);
+
+INSERT INTO skripsi VALUES (09094,Analisis Data Kesehatan untuk Prediksi Penyakit,Devina,2016,28);
+
+INSERT INTO skripsi VALUES (09095,Keamanan Data Kesehatan dalam Aplikasi Mobile Health (mHealth),Diajeng,2017,24);
+
+INSERT INTO skripsi VALUES (09096,Implementasi Sistem Informasi Elektronik Kesehatan (EHR),Dimas,2020,27);
+
+INSERT INTO skripsi VALUES (09097,Studi Kasus tentang Sistem Informasi Kesehatan pada Pusat Kesehatan Masyarakat,Evanka,2022,22);
+
+INSERT INTO skripsi VALUES (09098,Penggunaan Teknologi Blockchain dalam Sistem Informasi Kesehatan,Haidar,2021,25);
+
+INSERT INTO skripsi VALUES (09099,Analisis Big Data dalam Riset Kesehatan,Panji,2020,21);
+
+INSERT INTO skripsi VALUES (09100,Pengembangan Aplikasi Telemedicine dan Konsultasi Online,Wildan,2019,23);
+
+INSERT INTO skripsi VALUES (09101,Evaluasi Aplikasi Wearable Health Monitoring,Fahmi,2022,24);
+
+INSERT INTO skripsi VALUES (09102,Pengembangan Aplikasi Sistem Informasi Rumah Sakit,Rangga,2021,25);
+
+INSERT INTO skripsi VALUES (09103,Analisis Data dalam Peningkatan Kualitas Pembelajaran,Nadya,2020,23);
+
+INSERT INTO skripsi VALUES (09104,Integrasi Teknologi dalam Sistem Informasi Pendidikan,Niken,2016,28);
+
+INSERT INTO skripsi VALUES (09105,Implementasi Sistem Informasi Penerimaan Mahasiswa,Nia,2017,24);
+
+INSERT INTO skripsi VALUES (09106,Analisis Penggunaan E-Learning dalam Pendidikan Tinggi,Ima,2020,27);
+
+INSERT INTO skripsi VALUES (09107,Sistem Informasi Evaluasi Kinerja Guru,Lia,2022,22);
+
+INSERT INTO skripsi VALUES (09108,Perancangan Sistem Informasi Perpustakaan Sekolah,Mitha,2021,25);
+
+INSERT INTO skripsi VALUES (09109,Penggunaan Sistem Informasi dalam Manajemen Kurikulum,Rafi,2020,21);
+
+INSERT INTO skripsi VALUES (09110,Sistem Informasi Manajemen Data Mahasiswa,Rafli,2020,21);
+
+==============================================================
+TABEL peminjaman_buku
+==============================================================
 INSERT INTO peminjaman_buku VALUES (001,Bejo,Sistem informasi,2020,2,Teknologi,13 November 2023,17 November 2023);
 
 INSERT INTO peminjaman_buku VALUES (002,Icha,Arsitektur,2020,1,Arsitektur,13 November 2023,15 November 2023);
@@ -469,9 +671,9 @@ INSERT INTO peminjaman_buku VALUES (100,Arimbie,Sistem informasi,2021,1,Teknolog
 
 INSERT INTO peminjaman_buku VALUES (101,Emmy,Sistem informasi,2022,2,Teknologi,13 November 2023,17 November 2023);
 
-
-# TABEL peminjaman_skripsi
-
+==============================================================
+TABEL peminjaman_skripsi
+==============================================================
 INSERT INTO peminjaman_skripsi VALUES (001,Bejo,Sistem informasi,2020,2,13 November 2023,17 November 2023);
 
 INSERT INTO peminjaman_skripsi VALUES (002,Icha,Arsitektur,2020,1,13 November 2023,15 November 2023);
@@ -674,24 +876,43 @@ INSERT INTO peminjaman_skripsi VALUES (100,Arimbie,Sistem informasi,2021,1,13 No
 
 INSERT INTO peminjaman_skripsi VALUES (101,Emmy,Sistem informasi,2022,2,13 November 2023,17 November 2023);
 
-
 # PREVIEW
-# MENU LOGIN
+==============================================================
+MENU LOGIN
+==============================================================
 
+==============================================================
 # MENU DASHBOARD
+==============================================================
 
+==============================================================
 # MENU DATA BUKU
+==============================================================
 
+==============================================================
 # MENU DATA SKRIPSI
+==============================================================
 
+==============================================================
 # MENU LAPORAN DATA BUKU
+==============================================================
 
+==============================================================
 # MENU LAPORAN DATA SKRIPSI
+==============================================================
 
+==============================================================
 # MENU PEMINJAMAN BUKU
+==============================================================
 
+==============================================================
 # MENU PEMINJAMAN SKRIPSI
+==============================================================
 
+==============================================================
 # MENU LAPORAN PEMINJAMAN BUKU
+==============================================================
 
+==============================================================
 # MENU LAPORAN PEMINJAMAN SKRIPSI
+==============================================================
