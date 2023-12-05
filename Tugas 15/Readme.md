@@ -56,6 +56,7 @@ primary key ("id")
 );
 
 2. Lalu masukkan data ke dalam masing-masing tabel.
+
 ==============================================================
 
 TABEL buku
