@@ -890,42 +890,61 @@ INSERT INTO peminjaman_skripsi VALUES (100,Arimbie,Sistem informasi,2021,1,13 No
 INSERT INTO peminjaman_skripsi VALUES (101,Emmy,Sistem informasi,2022,2,13 November 2023,17 November 2023);
 
 # PREVIEW
+
 ==============================================================
-MENU LOGIN
+# MENU LOGIN
 ==============================================================
+![Screenshot 2023-11-19 215526](https://github.com/reds0109/PBO-2023/assets/148847358/7db27a0a-6499-411b-8996-d194baf1aaa8)
 
 ==============================================================
 # MENU DASHBOARD
 ==============================================================
+![Screenshot 2023-11-27 012233](https://github.com/reds0109/PBO-2023/assets/148847358/5da9e775-f5b1-452c-91e2-3febe3050af0)
 
 ==============================================================
 # MENU DATA BUKU
 ==============================================================
+![Screenshot 2023-12-04 073546](https://github.com/reds0109/PBO-2023/assets/148847358/cb1d407e-16d6-4e13-a4cb-f79a504f28e0)
 
 ==============================================================
 # MENU DATA SKRIPSI
 ==============================================================
+![Screenshot 2023-12-04 073819](https://github.com/reds0109/PBO-2023/assets/148847358/db57810b-81fa-4b2a-aded-efc997dfd698)
 
 ==============================================================
 # MENU LAPORAN DATA BUKU
 ==============================================================
+![Screenshot 2023-12-04 073905](https://github.com/reds0109/PBO-2023/assets/148847358/7dfca469-35c7-4f53-a1de-d01c9c0a0f60)
+
+![Screenshot 2023-12-04 075208](https://github.com/reds0109/PBO-2023/assets/148847358/f071f76b-c400-4a24-ba11-9a2b04b36dd0)
 
 ==============================================================
 # MENU LAPORAN DATA SKRIPSI
 ==============================================================
+![Screenshot 2023-12-04 074230](https://github.com/reds0109/PBO-2023/assets/148847358/29721b59-cee3-4d14-815a-6859da574cfe)
+
+![Screenshot 2023-12-04 075403](https://github.com/reds0109/PBO-2023/assets/148847358/71f39d84-ee9e-49f7-b561-59f56c4f64a9)
 
 ==============================================================
 # MENU PEMINJAMAN BUKU
 ==============================================================
+![Screenshot 2023-12-04 074343](https://github.com/reds0109/PBO-2023/assets/148847358/b93c5633-87aa-42e1-89a2-c752c51386f5)
 
 ==============================================================
 # MENU PEMINJAMAN SKRIPSI
 ==============================================================
+![Screenshot 2023-12-04 074559](https://github.com/reds0109/PBO-2023/assets/148847358/f3bb070f-9c0d-49a5-a1cc-371334dfd505)
 
 ==============================================================
 # MENU LAPORAN PEMINJAMAN BUKU
 ==============================================================
+![Screenshot 2023-12-04 074649](https://github.com/reds0109/PBO-2023/assets/148847358/e66c14ae-57dd-4a74-9205-833f4829ced4)
+
+![Screenshot 2023-12-04 075550](https://github.com/reds0109/PBO-2023/assets/148847358/3f9d6757-5f2e-4f68-8e72-34ea7e7f1b22)
 
 ==============================================================
 # MENU LAPORAN PEMINJAMAN SKRIPSI
 ==============================================================
+![Screenshot 2023-12-04 074728](https://github.com/reds0109/PBO-2023/assets/148847358/cdbd16f8-5adf-4ba6-b494-3e4756454b95)
+
+![Screenshot 2023-12-04 075645](https://github.com/reds0109/PBO-2023/assets/148847358/81e3a3fa-9c28-4efd-9ce9-d23153bfda57)
