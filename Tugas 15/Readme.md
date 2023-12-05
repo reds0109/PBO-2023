@@ -57,8 +57,11 @@ primary key ("id")
 
 2. Lalu masukkan data ke dalam masing-masing tabel.
 ==============================================================
+
 TABEL buku
+
 ==============================================================
+
 INSERT INTO buku VALUES (12300,Bahasa Java,Teknologi,Miftha,Gramedia,2015,210);
 
 INSERT INTO buku VALUES (12301,Bahasa Python,Teknologi,Merliana,Airlangga,2014,243);
@@ -262,8 +265,11 @@ INSERT INTO buku VALUES (12400,Sociopreneurship,Teknologi,Febri,Bukunesia,2014,2
 INSERT INTO buku VALUES (12401,Cloud Computing,Teknologi,Azka,Bukunesia,2014,250);
 
 ==============================================================
+
 TABEL skripsi
+
 ==============================================================
+
 INSERT INTO skripsi VALUES (09010,Implementasi Teknologi Blockchain dalam Sistem Manajemen Hak Cipta,Fitriya,2016,20);
 
 INSERT INTO skripsi VALUES (09011,Pengembangan Aplikasi Sistem Informasi Manajemen Risiko pada Perusahaan Asuransi,Aulia,2016,19);
@@ -467,8 +473,11 @@ INSERT INTO skripsi VALUES (09109,Penggunaan Sistem Informasi dalam Manajemen Ku
 INSERT INTO skripsi VALUES (09110,Sistem Informasi Manajemen Data Mahasiswa,Rafli,2020,21);
 
 ==============================================================
+
 TABEL peminjaman_buku
+
 ==============================================================
+
 INSERT INTO peminjaman_buku VALUES (001,Bejo,Sistem informasi,2020,2,Teknologi,13 November 2023,17 November 2023);
 
 INSERT INTO peminjaman_buku VALUES (002,Icha,Arsitektur,2020,1,Arsitektur,13 November 2023,15 November 2023);
@@ -672,8 +681,11 @@ INSERT INTO peminjaman_buku VALUES (100,Arimbie,Sistem informasi,2021,1,Teknolog
 INSERT INTO peminjaman_buku VALUES (101,Emmy,Sistem informasi,2022,2,Teknologi,13 November 2023,17 November 2023);
 
 ==============================================================
+
 TABEL peminjaman_skripsi
+
 ==============================================================
+
 INSERT INTO peminjaman_skripsi VALUES (001,Bejo,Sistem informasi,2020,2,13 November 2023,17 November 2023);
 
 INSERT INTO peminjaman_skripsi VALUES (002,Icha,Arsitektur,2020,1,13 November 2023,15 November 2023);
