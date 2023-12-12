@@ -13,46 +13,48 @@ MY LIBRARY merupakan aplikasi yang mengelola penyimpanan buku dan skripsi para m
 CREATE DATABASE PBO_UAS;
 
 CREATE TABLE Buku (
-"isbn" char(5),
-"judul" varchar(255),
-"kategori" varchar(40),
-"pengarang" varchar(50),
-"penerbit" varchar(30),
-"tahun_terbit" char(4),
-"jumlah_halaman" varchar(5),
-primary key ("isbn")
+    "isbn" char(5),
+    "judul" varchar(255),
+    "kategori" varchar(40),
+    "pengarang" varchar(50),
+    "penerbit" varchar(30),
+    "tahun_terbit" char(4),
+    "jumlah_halaman" varchar(5),
+    primary key ("isbn")
 );
 
 CREATE TABLE Skripsi (
-"id_skripsi" char(5),
-"judul" varchar(200),
-"pengarang" varchar(50),
-"tahun" char(4),
-"jumlah_halaman" varchar(5),
-primary key ("id_skripsi")
+    "id_skripsi" char(5),
+    "judul" varchar(200),
+    "pengarang" varchar(50),
+    "tahun" char(4),
+    "jumlah_halaman" varchar(5),
+    primary key ("id_skripsi")
 );
 
 CREATE TABLE peminjaman_buku (
-"id" varchar(5),
-"nama" varchar(50),
-"program_studi" varchar(30),
-"angkatan" char(4),
-"isbn" char(5),
-"kategori" varchar(40),
-"tanggal_peminjaman" varchar(20),
-"tanggal_pengembalian" varchar(20),
-primary key ("id")
+    "id" char(3),
+    "nama" varchar(50),
+    "program_studi" varchar(30),
+    "angkatan" char(4),
+    "isbn" char(5),
+    "kategori" varchar(40),
+    "tanggal_peminjaman" varchar(20),
+    "tanggal_pengembalian" varchar(20),
+    primary key ("id"),
+    foreign key ("isbn") references buku("isbn")
 );
 
+
 CREATE TABLE peminjaman_skripsi (
-"id" char(3),
-"nama" varchar(50),
-"program_studi" varchar(30),
-"angkatan" char(4),
-"jumlah_skripsi" varchar(2),
-"tanggal_peminjaman" varchar(20),
-"tanggal_pengembalian" varchar(20),
-primary key ("id")
+    "id" char(3),
+    "nama" varchar(50),
+    "program_studi" varchar(30),
+    "angkatan" char(4),
+    "jumlah_skripsi" varchar(2),
+    "tanggal_peminjaman" varchar(20),
+    "tanggal_pengembalian" varchar(20),
+    primary key ("id")
 );
 
 2. Lalu masukkan data ke dalam masing-masing tabel.
