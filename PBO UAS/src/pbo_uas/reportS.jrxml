@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="09dfb5c7-d865-46b3-a9c6-98226dc543a6">
+	<property name="ireport.zoom" value="0.9090909090909091"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="querySearch" class="java.lang.String"/>
+	<parameter name="searchBy" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM Skripsi]]>
+	</queryString>
+	<field name="idSkripsi" class="java.lang.String"/>
+	<field name="judul" class="java.lang.String"/>
+	<field name="pengarang" class="java.lang.String"/>
+	<field name="tahun" class="java.lang.String"/>
+	<field name="jumlahHalaman" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="84" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="802" height="73" uuid="04f8d1b6-c2bf-4fca-bbc8-35c924f2900d"/>
+				<imageExpression><![CDATA["C:\\Users\\user\\Pictures\\Screenshots\\Screenshot 2023-12-03 165640.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="10" y="6" width="83" height="41" forecolor="#FFFFFF" uuid="529d77b5-28cd-4d42-80c5-c5dbd7b83aaa"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[MY LIBRARY]]></text>
+			</staticText>
+			<image>
+				<reportElement x="650" y="6" width="77" height="57" uuid="51a92f82-4e1a-4dc7-b8a7-63600e3941bb"/>
+				<imageExpression><![CDATA["C:\\Users\\user\\Pictures\\Screenshots\\Screenshot 2023-11-11 233641.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="196" y="16" width="404" height="47" forecolor="#FFFFFF" uuid="12ac6e62-bb1e-45ff-b404-1603b18584a5"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="30" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA SKRIPSI]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="33" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="713" height="20" uuid="6b846d21-f3a2-414b-b179-02e61172ec91"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["hasil pencarian dari " + $P{querySearch} +" berdasarkan pada kolom " + $P{searchBy} +" hasilnya adalah:"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="196" y="0" width="54" height="25" forecolor="#1E4226" uuid="a9774d71-3940-4a91-8aec-9795984ce709"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Judul]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="368" y="0" width="100" height="25" forecolor="#1E4226" uuid="feac90a7-fe28-40c7-b046-d5acf74e83af"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Pengarang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="527" y="0" width="62" height="25" forecolor="#1E4226" uuid="73aeef9e-b0a0-4feb-9a80-3e147b64aa07"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Tahun]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="25" forecolor="#1E4226" uuid="62c40f30-8e09-4d2b-a88a-ca3b59605afb"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[ID Skripsi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="650" y="0" width="152" height="25" forecolor="#1E4226" uuid="f4585b40-5ce2-4fff-9566-c1995532fc69"/>
+				<textElement>
+					<font fontName="Bookman Old Style" size="16" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Jumlah Halaman]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement x="368" y="0" width="89" height="30" forecolor="#006633" uuid="d7d56372-d5b9-4bc2-915e-e07812d79e46">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pengarang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="0" width="201" height="30" forecolor="#006633" uuid="98b11a13-cfde-4d69-be3e-c6a4f71f065f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{judul}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="670" y="0" width="110" height="30" forecolor="#006633" uuid="44aaa8c2-6149-46b3-80a8-a054438be361">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jumlahHalaman}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="527" y="0" width="62" height="30" forecolor="#006633" uuid="bfc60dec-334e-4ff8-a460-f26c48d97229">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tahun}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="0" width="90" height="30" forecolor="#006633" uuid="4e8fea8f-ee9a-4c0e-b622-216ee841c2b5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<box>
+					<pen lineStyle="Double"/>
+					<topPen lineStyle="Double"/>
+					<leftPen lineStyle="Double"/>
+					<bottomPen lineStyle="Double"/>
+					<rightPen lineStyle="Double"/>
+				</box>
+				<textElement>
+					<font fontName="Bookman Old Style" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{idSkripsi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="3" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="28" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="0" width="100" height="20" uuid="18da28c5-9337-43f3-809e-96fd87f98c15"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="3" splitType="Stretch"/>
+	</summary>
+</jasperReport>
